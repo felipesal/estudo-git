@@ -78,3 +78,27 @@ git branch <nova_branch>
 ```
 git branch -d <branch>
 ```
+
+- Acessar a branch:
+```
+git checkout <branch>
+```
+Seu repositório passar a ter os commits da branch e novos commits serão adicionados a ela.
+
+## Merge
+- Aplica os commits de uma branch na branch atual;
+- Encontra um commit comum entre as branchs e aplica todos os commits que a atual não possui;
+- Caso existam commits na atual que não estão na outra, será criado um commit de merge.
+- Comando:
+```
+git merge <branch>
+```
+
+## Rebase
+- Semelhante ao merge, porém difere na ordem de aplicar os commits;
+- No rebase os commits na frente da base são removidos temporariamente, os commits da branch são adicionados e por fim os da branch atual são adicionados um a um.
+- Podem acontecer conflitos que serão removidos para cada commit.
+- Comando:
+```
+git rebase <branch>
+```
