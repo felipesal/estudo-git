@@ -102,3 +102,26 @@ git merge <branch>
 ```
 git rebase <branch>
 ```
+
+## Fetch
+- Baixa as atualizações do remote porém não aplica no repositório;
+- Permite fazer o rebase de uma branch em vez de fazer o merge;
+- `pull = fetch + merge` 
+- fetch e rebase é melhor para manter histórico de desenvolvimento.
+- Comando:
+```
+git fetch
+```
+
+## Tags
+- Útil para definir versões estáveis do projeto;
+- Semelhante a branch porém não recebe mais commits;
+- Guarda um estado do repositório;
+- Comando:
+```
+git tag [nome da tag]
+```
+
+```
+git push <remote> <tag>
+```
