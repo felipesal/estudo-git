@@ -60,3 +60,21 @@ Cuidado ao usar o --hard, se já foi publicado no repositório remoto não se de
 - O git identifica os conflitos e fica aguardando a solução;
 - Ao resolver os conflitos deve ser feito um commit;
 
+- Para resolver o conflito é preciso dar um `git pull` , resolver os conflitos apontados pelo git e commitar as alterações.
+
+## Branching
+- É uma lista de commits
+- Representa ramificações no repositório
+- Listar as branchs do repositório:
+```
+git branch
+```
+- Criar uma nova branch:
+```
+git branch <nova_branch>
+```
+
+- Exclui uma branch:
+```
+git branch -d <branch>
+```
