@@ -60,4 +60,3 @@ Cuidado ao usar o --hard, se já foi publicado no repositório remoto não se de
 - O git identifica os conflitos e fica aguardando a solução;
 - Ao resolver os conflitos deve ser feito um commit;
 
-!(estudo-git/conflitos.png)
