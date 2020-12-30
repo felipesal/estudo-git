@@ -133,3 +133,18 @@ git push <remote> <tag>
 ```
 git commit --amend
 ```
+
+## Git stash
+- Guarda as alterações do working directory:
+```
+git stash
+```
+- Permite fazer rebase, merge, trocar de branch sem a necessidade de fazer um commit:
+```
+git stash list
+```
+
+- Aplica o último stash armazenado:
+```
+git stash pop
+```  
