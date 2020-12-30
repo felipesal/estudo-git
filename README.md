@@ -125,3 +125,11 @@ git tag [nome da tag]
 ```
 git push <remote> <tag>
 ```
+
+## Commit amend
+- Altera a mensagem do último commit;
+- Adiciona arquivos ao último commit
+- Comando:
+```
+git commit --amend
+```
